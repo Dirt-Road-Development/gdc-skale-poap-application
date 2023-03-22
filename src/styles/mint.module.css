@@ -1,4 +1,9 @@
 .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -109,6 +114,10 @@
   justify-content: center;
 }
 
+.minted p {
+  text-align: center;
+}
+
 .minted .poweredBy {
   position: absolute;
   bottom: 5%;
@@ -120,6 +129,10 @@
 }
 
 .minted .poweredBy a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
+}
+
+.minted .poweredBy a:hover {
+  font-weight: 900;
 }
