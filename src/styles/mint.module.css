@@ -136,3 +136,24 @@
 .minted .poweredBy a:hover {
   font-weight: 900;
 }
+
+.container {
+  background: black;
+}
+
+.container .connectButton button {
+  width: auto !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: black;
+  color: var(--color-green);
+  border: 0.25px solid seashell;
+}
+
+.container .connectButton button:hover {
+  cursor: pointer;
+  border-color: var(--color-green);
+  background: var(--color-green);
+  color: black;
+}

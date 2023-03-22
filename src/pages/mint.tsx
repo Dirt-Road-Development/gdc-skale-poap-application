@@ -35,7 +35,11 @@ export default function MintPoap() {
 
     return (
         <div className={styles.container}>
-            {!isConnected && <ConnectButton label="Connect Wallet to Mint FREE SKALE x GDC POAP "/>}
+            {!isConnected && (
+                <div className={styles.connectButton}>
+                    <ConnectButton label="Connect Wallet to Mint FREE SKALE x GDC POAP"/>
+                </div>
+            )}
             {isConnected && !isLoading && !isSuccess && (
                 <>
                     <img id="skale-logo" src="/skale-poap.svg" alt="SKALE Logo" />
