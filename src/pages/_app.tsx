@@ -4,6 +4,7 @@ import type { AppProps } from 'next/app'
 import NextHead from 'next/head'
 import * as React from 'react'
 import { WagmiConfig } from 'wagmi'
+import "../styles/global.css";
 
 import { chains, client } from '../wagmi'
 

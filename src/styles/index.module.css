@@ -1,0 +1,27 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .asset {
+    height: 50%;
+    width: 100%;
+}
+
+.container .qr-code {
+    height: 250px;
+    width: 250px;
+}
+
+.container .qr-code img {
+    width: 50px;
+    height: 50px;
+}
